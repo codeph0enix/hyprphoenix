@@ -3,32 +3,28 @@
   
   "layer": "top",
   "position": "top",
-  "height": 40,
+  "height": 55,
   
   "modules-left": [
     "custom/launcher",
     "hyprland/workspaces",
     "custom/weather",
     "custom/updates",
-    "custom/cava"
-  ],
-  
-  "modules-center": [
-    "memory",
-    "cpu",
     "temperature"
   ],
   
+  "modules-center": [
+    "custom/cava"
+  ],
+  
   "modules-right": [
-    "idle_inhibitor",
     "battery",
-    "hyprland/language",
-    "keyboard-state",
     "backlight",
     "pulseaudio",
     "network",
     "clock",
     "custom/notification",
+    "custom/orbit",
     "tray"
   ],
 

@@ -144,8 +144,8 @@ tooltip label {
 #temperature {
 	background: @background-primary;
 	color: @teal;
-	border-left: 4px solid @teal;
-	border-radius: 0 12px 12px 0;
+	border-right: 4px solid @teal;
+	border-radius: 12px;
 	margin: 6px 2px 6px 0;
 	padding: 8px 12px;
 }
@@ -153,7 +153,7 @@ tooltip label {
 #temperature.critical {
 	background: @error;
 	color: @base;
-	border-left: 4px solid @maroon;
+	border-right: 4px solid @maroon;
 }
 
 /* -----------------------------------------------------------------------------
@@ -193,7 +193,6 @@ tooltip label {
 #backlight {
 	background: @background-primary;
 	color: @yellow;
-	border-left: 4px solid @yellow;
 	border-radius: 12px 0 0 12px;
 	margin: 6px 0 6px 2px;
 	padding: 8px 12px;
@@ -324,6 +323,16 @@ tooltip label {
 	background: @background-primary;
 	color: @green;
 	border-left: 4px solid @green;
+	border-right: 4px solid @green;
+	margin: 6px 2px;
+	padding: 8px 12px;
+	border-radius: 12px;
+}
+
+#custom-orbit {
+	background: @background-primary;
+	color: @green;
+	border-right: 4px solid @green;
 	margin: 6px 2px;
 	padding: 8px 12px;
 	border-radius: 12px;
